@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project2</title>
+  <link rel="stylesheet" href="hour.css">
+  <script src="hour.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Hey Khushi</h1>
+    <form id="wageForm">
+      <!-- Loop through and create 10 date entries -->
+      <div class="day-entry">
+        <label for="date1">Select Date 1:</label>
+        <input type="date" id="date1" name="date1" required>
+        <label for="timeStart1">Start Time:</label>
+        <input type="time" id="timeStart1" name="timeStart1" required>
+        <label for="timeEnd1">End Time:</label>
+        <input type="time" id="timeEnd1" name="timeEnd1" required>
+      </div>
+
+      <div class="day-entry">
+        <label for="date2">Select Date 2:</label>
+        <input type="date" id="date2" name="date2">
+        <label for="timeStart2">Start Time:</label>
+        <input type="time" id="timeStart2" name="timeStart2">
+        <label for="timeEnd2">End Time:</label>
+        <input type="time" id="timeEnd2" name="timeEnd2">
+      </div>
+
+      <div class="day-entry">
+        <label for="date3">Select Date 3:</label>
+        <input type="date" id="date3" name="date3">
+        <label for="timeStart3">Start Time:</label>
+        <input type="time" id="timeStart3" name="timeStart3">
+        <label for="timeEnd3">End Time:</label>
+        <input type="time" id="timeEnd3" name="timeEnd3">
+      </div>
+
+      <div class="day-entry">
+        <label for="date4">Select Date 4:</label>
+        <input type="date" id="date4" name="date4">
+        <label for="timeStart4">Start Time:</label>
+        <input type="time" id="timeStart4" name="timeStart4">
+        <label for="timeEnd4">End Time:</label>
+        <input type="time" id="timeEnd4" name="timeEnd4">
+      </div>
+
+      <div class="day-entry">
+        <label for="date5">Select Date 5:</label>
+        <input type="date" id="date5" name="date5">
+        <label for="timeStart5">Start Time:</label>
+        <input type="time" id="timeStart5" name="timeStart5">
+        <label for="timeEnd5">End Time:</label>
+        <input type="time" id="timeEnd5" name="timeEnd5">
+      </div>
+
+      <div class="day-entry">
+        <label for="date6">Select Date 6:</label>
+        <input type="date" id="date6" name="date6">
+        <label for="timeStart6">Start Time:</label>
+        <input type="time" id="timeStart6" name="timeStart6">
+        <label for="timeEnd6">End Time:</label>
+        <input type="time" id="timeEnd6" name="timeEnd6">
+      </div>
+
+      <div class="day-entry">
+        <label for="date7">Select Date 7:</label>
+        <input type="date" id="date7" name="date7">
+        <label for="timeStart7">Start Time:</label>
+        <input type="time" id="timeStart7" name="timeStart7">
+        <label for="timeEnd7">End Time:</label>
+        <input type="time" id="timeEnd7" name="timeEnd7">
+      </div>
+
+      <div class="day-entry">
+        <label for="date8">Select Date 8:</label>
+        <input type="date" id="date8" name="date8">
+        <label for="timeStart8">Start Time:</label>
+        <input type="time" id="timeStart8" name="timeStart8">
+        <label for="timeEnd8">End Time:</label>
+        <input type="time" id="timeEnd8" name="timeEnd8">
+      </div>
+
+      <div class="day-entry">
+        <label for="date9">Select Date 9:</label>
+        <input type="date" id="date9" name="date9">
+        <label for="timeStart9">Start Time:</label>
+        <input type="time" id="timeStart9" name="timeStart9">
+        <label for="timeEnd9">End Time:</label>
+        <input type="time" id="timeEnd9" name="timeEnd9">
+      </div>
+
+      <label for="wage">Hourly Wage ($):</label>
+      <input type="number" id="wage" name="wage" min="0" required>
+
+      <button type="submit">Calculate Total Salary</button>
+    </form>
+    <h2>Your Total Salary for <span id="totalDays">Selected Days</span>: $<span id="totalSalary">0.00</span></h2>
+  </div>
+</body>
+</html>

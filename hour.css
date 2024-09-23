@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('back2.webp'); /* Using your uploaded image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  h1, h2 {
+    color: #00aaff;
+    animation: glow 2s infinite alternate;
+  }
+  
+  input {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    }
+    100% {
+      text-shadow: 0 0 20px #00ffbb, 0 0 30px #00ffbb, 0 0 40px #00ffbb;
+    }
+  }
+  
